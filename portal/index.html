@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="user">
+				<a href="#">Aayushi Singh</a>
+			</div>
+			<div class="logout">
+				<a href="#">Logout</a>
+			</div>
+		</div>
+		<div class="box">
+			<h2>Welcome to the Dashboard</h2>
+            <h4><span>Subject Name</span></h4>
+			<p>Date and Time: <span id="datetime"></span></p>
+			<button>Mark Present</button>
+		</div>
+	</div>
+
+	<script>
+		var dt = new Date();
+		document.getElementById("datetime").innerHTML = dt.toLocaleString();
+	</script>
+</body>
+</html>
