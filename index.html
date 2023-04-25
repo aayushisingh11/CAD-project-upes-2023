@@ -7,7 +7,7 @@
 <body>
     <!-- login page code -->
 	<h2>UPES Attendance Portal</h2>
-	<form>
+	<form action="server.php" method="POST">
 		<label for="username">Username:</label>
 		<input type="text" id="username" name="username"><br><br>
 		<label for="password">Password:</label>
@@ -17,7 +17,7 @@
 		<label for="student">Student</label><br>
 		<input type="radio" id="teacher" name="role" value="teacher">
 		<label for="teacher">Teacher</label><br><br>
-		<input type="submit" value="Submit">
+		<input type="submit" value="Login">
 	</form>
     <!-- login page code end -->
 </body>
