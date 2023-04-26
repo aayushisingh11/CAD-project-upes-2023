@@ -8,3 +8,11 @@ Or simply copy 20.106.207.232 and paste this on web browser to access
 ---
 Please reload the web page if error occur
 ---
+Password and id
+teacher:
+username- teacher1
+password- password1
+
+student:
+username- teacher1
+password- password1
