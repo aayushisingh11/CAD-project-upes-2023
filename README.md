@@ -3,4 +3,6 @@
 The idea of project and workflow is explained in the form of presentation video.
 ---
 Click on this Pubilc IP address to access my cloud deployed project [20.106.207.232](https://20.106.207.232/index.html)
+
+Or simply copy 20.106.207.232 and paste this on web browser to access
 ---
